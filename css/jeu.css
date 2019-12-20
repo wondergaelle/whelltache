@@ -1,0 +1,16 @@
+#roue{
+    transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+    background-color: pink;
+}
+
+@webkit-keyframes wheel {
+from{
+    -webkit-transform: rotate(0deg);
+}
+to{
+    -webkit-transform: rotate(360deg);
+}
+}
+
+.wheel {
+    -webkit-animation: wheel 2s linear infinite;}
