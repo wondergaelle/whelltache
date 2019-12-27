@@ -44,6 +44,7 @@
 
                         $civilites= $stmt->fetchAll();
 
+
                         foreach ($civilites as $civility) :?>
 
                         <div class="custom-control custom-radio">
@@ -55,6 +56,7 @@
                         </div>
                         <?php endforeach; ?>
                     </div>
+
                     <div class="form-group">
                         <div>
                             <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
@@ -63,6 +65,7 @@
                             <input name="password" type="password" class="form-control" id="inputPassword3"
                                    placeholder="Password">
                         </div>
+
                     </div>
                 </div>
                 <div class="form-group">
@@ -71,6 +74,7 @@
                     </div>
                 </div>
         </div>
+
         </form>
 
     </div>
