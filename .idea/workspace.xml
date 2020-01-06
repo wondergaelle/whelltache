@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1c09a6-137f-4ae6-93f3-9c11bd75796f" name="Default Changelist" comment="Premier commit du projet">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cookingchef" beforeDir="false" afterPath="$PROJECT_DIR$/../cookingchef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/bdd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dev3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dev3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Projets/trocenstock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projets/trocenstock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,22 +30,54 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="whelltache@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="whelltache@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="whelltache@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="whelltache: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="whelltache@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="whelltache: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tache: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class/bdd.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/inscription.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="740">
+              <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/tache.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -80,19 +116,23 @@
         <option value="$PROJECT_DIR$/pages/jeu.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/parts/footer.php" />
-        <option value="$PROJECT_DIR$/parts/header.php" />
         <option value="$PROJECT_DIR$/form/connexion.php" />
         <option value="$PROJECT_DIR$/pages/connexion.php" />
         <option value="$PROJECT_DIR$/pages/404.php" />
         <option value="$PROJECT_DIR$/pages/code-stock.php" />
-        <option value="$PROJECT_DIR$/pages/inscription.php" />
         <option value="$PROJECT_DIR$/class/bdd.php" />
+        <option value="$PROJECT_DIR$/pages/taches.php" />
+        <option value="$PROJECT_DIR$/pages/inscription.php" />
+        <option value="$PROJECT_DIR$/pages/tache.php" />
+        <option value="$PROJECT_DIR$/parts/header.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="75" />
+    <option name="y" value="23" />
     <option name="width" value="1536" />
-    <option name="height" value="960" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,13 +151,17 @@
             <path>
               <item name="whelltache" type="b2602c69:ProjectViewProjectNode" />
               <item name="whelltache" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="whelltache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whelltache" type="462c0819:PsiDirectoryNode" />
+              <item name="parts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,7 +173,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -169,6 +214,8 @@
       <workItem from="1576689440684" duration="3935000" />
       <workItem from="1576740882128" duration="15514000" />
       <workItem from="1576832061818" duration="2411000" />
+      <workItem from="1578311690479" duration="1667000" />
+      <workItem from="1578314404016" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit du projet">
       <created>1576833826402</created>
@@ -177,17 +224,44 @@
       <option name="project" value="LOCAL" />
       <updated>1576833826403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="page tache">
+      <created>1578313176157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578313176157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Premier commit du projet">
+      <created>1578313635674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578313635674</updated>
+    </task>
+    <task id="LOCAL-00004" summary="inscription sans avatar">
+      <created>1578315009787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578315009787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="page tache">
+      <created>1578315092463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578315092463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54354000" />
+    <option name="totallyTimeSpent" value="56987000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1536" height="937" extended-state="6" />
-    <editor active="true" />
+    <frame x="72" y="101" width="1536" height="937" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15327978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15729585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,7 +274,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37751478" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37751478" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32781065" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -214,7 +288,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Premier commit du projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Premier commit du projet" />
+    <MESSAGE value="inscription sans avatar" />
+    <MESSAGE value="page tache" />
+    <option name="LAST_COMMIT_MESSAGE" value="page tache" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scss/header.css" />
@@ -321,13 +397,6 @@
       </provider>
     </entry>
     <entry file="das://9db53c0d-80af-4e1d-a995-ac99d1e7b748/schema/whelltache/table/civilite" />
-    <entry file="file://$PROJECT_DIR$/parts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="955">
@@ -343,13 +412,6 @@
       </provider>
     </entry>
     <entry file="das://9db53c0d-80af-4e1d-a995-ac99d1e7b748/schema/whelltache/table/utilisateur" />
-    <entry file="file://$PROJECT_DIR$/pages/inscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="812">
@@ -357,10 +419,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8f2a31ef-9884-43c9-ba90-adfd60ef5619/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://8f2a31ef-9884-43c9-ba90-adfd60ef5619/schema/whelltache/table/utilisateur">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class/bdd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/taches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
         </state>
       </provider>
     </entry>
