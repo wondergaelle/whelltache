@@ -37,12 +37,12 @@ x@x@
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                       href="index.php?page=tache">Tache</a>
+                       href="index.php?page=tache">Taches</a>
                 </li>
 
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                       href="index.php?page=recherche">Recherche</a>
+                       href="index.php?page=affectation">Affectation</a>
                 </li>
                 <?php if ($_SESSION["isConnected"] == false) {
                     echo '<li class="nav-item mx-0 mx-lg-1">
@@ -58,10 +58,8 @@ x@x@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.php?dec">Deconnection</a>
                 </li>';
                     echo  '<p> '.$_SESSION["userConnected"]["nom"].' est connecté </p> ';
-
                 }
                 ?>
-
 
             </ul>
 
