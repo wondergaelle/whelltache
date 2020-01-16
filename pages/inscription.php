@@ -21,12 +21,12 @@
         ?>
         <div class="mx-auto col-md-12 col-lg-6">
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">INSCRIVEZ VOUS !</h2>
-
-            <?php
-            if ($form && $resultat) echo "ok";
-            if ($form && !$resultat) echo "nok";
-            ?>
-
+            <div class="mx">
+                <?php
+                if ($form && $resultat) echo "Votre inscription est bien enregistrée !";
+                if ($form && !$resultat) echo "nok";
+                ?>
+            </div>
             <form action="index.php?page=inscription" method="post">
                 <div class="">
                     <div class="">
@@ -37,21 +37,21 @@
                     </div>
                     <div>
                         <?php
-                        $sql="select *from civilite";
+                        $sql = "select *from civilite";
 
                         $stmt = $dbh->prepare($sql);
                         $stmt->execute();
 
-                        $civilites= $stmt->fetchAll();
-
+                        $civilites = $stmt->fetchAll();
 
                         foreach ($civilites as $civility) :?>
 
                             <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio<?= $civility["id"]?>" name="genre" value="<?= $civility["id"] ?>"
+                                <input type="radio" id="customRadio<?= $civility["id"] ?>" name="genre"
+                                       value="<?= $civility["id"] ?>"
                                        class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio<?= $civility["id"]?>">
-                                    <?=$civility['libelle'] ?>
+                                <label class="custom-control-label" for="customRadio<?= $civility["id"] ?>">
+                                    <?= $civility['libelle'] ?>
                                 </label>
                             </div>
                         <?php endforeach; ?>

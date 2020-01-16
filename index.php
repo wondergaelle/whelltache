@@ -41,8 +41,8 @@ if(isset($_GET["page"])) {
     require "pages/jeu.php";
 }
 
-var_dump($_GET);
-var_dump($_POST);
+/*var_dump($_GET);
+var_dump($_POST);*/
 
 require "parts/footer.php";
 
