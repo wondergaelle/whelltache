@@ -61,6 +61,17 @@ x@x@
                 }
                 ?>
 
+
+         <!--       //accorder le verbe connecter selon le genre
+                --><?php /*
+
+                if ($_POST["genre"] == 'fille') {
+                echo '<p> ' . $_SESSION["userConnected"]["nom"] . ' est connecté </p> ';
+                } else {
+                '<p> ' . $_SESSION["userConnected"]["nom"] . ' est connectée </p> ';
+
+                }
+                */?>
             </ul>
 
         </div>

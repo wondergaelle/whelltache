@@ -7,7 +7,7 @@
         $taches = $statement->fetchAll();
         ?>
 
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">LISTE DES TACHES</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary p-4">LISTE DES TACHES</h2>
         <table class="table">
             <thead >
             <tr>

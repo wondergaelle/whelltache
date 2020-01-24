@@ -14,14 +14,14 @@
                     echo ' <p></p><a href="index.php?dec">deconnexion</a> </p> ';
                 } ?>
 
-                <h4 class="text-uppercase mb-4">Location</h4>
-                <p class="lead mb-0">2215 John Daniel Drive
-                    <br>Clark, MO 65243</p>
+                <h4 class="text-uppercase mb-4">Adresse</h4>
+                <p class="lead mb-0">31 allée des violettes
+                    <br>le bonheur est ici</p>
             </div>
 
             <!-- Footer Social Icons -->
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                <h4 class="text-uppercase mb-4">WHELLTACHE</h4>
                 <div id="roue" class="wheel" >
                     <img class="roue" src="img/roue.png" alt="" style="width: 200px">
                 </div>
@@ -29,9 +29,9 @@
 
             <!-- Footer About Text -->
             <div class="col-lg-4">
-                <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-                    <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                <h4 class="text-uppercase mb-4">About WhellTache</h4>
+                <p class="lead mb-0">l'important c'est de participer !
+
             </div>
 
         </div>

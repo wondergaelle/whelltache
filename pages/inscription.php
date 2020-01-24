@@ -20,7 +20,7 @@
         }
         ?>
         <div class="mx-auto col-md-12 col-lg-6">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">INSCRIVEZ VOUS !</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary p-3">INSCRIVEZ VOUS !</h2>
             <div class="mx">
                 <?php
                 if ($form && $resultat) echo "Votre inscription est bien enregistrée !";
@@ -29,10 +29,10 @@
             </div>
             <form action="index.php?page=inscription" method="post">
                 <div class="">
-                    <div class="">
+                    <div class="p-2">
                         <input name="nom" type="text" class="form-control" placeholder="First name">
                     </div>
-                    <div class="">
+                    <div class="p-2">
                         <input name="age" type="number" class="form-control" placeholder="age">
                     </div>
                     <div>
@@ -46,7 +46,7 @@
 
                         foreach ($civilites as $civility) :?>
 
-                            <div class="custom-control custom-radio">
+                            <div class="custom-control custom-radio p-1">
                                 <input type="radio" id="customRadio<?= $civility["id"] ?>" name="genre"
                                        value="<?= $civility["id"] ?>"
                                        class="custom-control-input">
